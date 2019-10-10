@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Paytm_testcase_Suite]">
+  <test name="Test Login(failed)">
+    <classes>
+      <class name="Test_cases.DriverSetup">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- Test_cases.DriverSetup -->
+      <class name="Test_cases.Dashboard">
+        <methods>
+          <include name="searchHotel"/>
+        </methods>
+      </class> <!-- Test_cases.Dashboard -->
+    </classes>
+  </test> <!-- Test Login(failed) -->
+</suite> <!-- Failed suite [Paytm_testcase_Suite] -->

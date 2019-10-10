@@ -1,0 +1,934 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>171/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 10 12:11:13 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>389 seconds (389787 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Agartala, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>2</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Agra, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Ahmedabad, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>4</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Ahmednagar, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Ajmer, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Alappuzha, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Aligarh, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Allahabad, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Alwar, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Ambala, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Amravati, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Amritsar, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Anantapur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Asansol, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Aurangabad, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Baddi, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Bangalore, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>26</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Banglore, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Bareilly, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Bathinda, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Belgaum, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Bellary, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Bhilai, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Bhilwara, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Bhiwadi, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Bhopal, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>2</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Bhubaneswar, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Bikaner, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Bilaspur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Calicut, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Chandigarh, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>3</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Chennai, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>17</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Chikmagalur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Coimbatore, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>4</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Cooch Behar, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Coonoor, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Coorg, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Cuttack, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Darjeeling, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Dehradun, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>2</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Delhi, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>21</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Dewas, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Dhanbad, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Durg, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Durgapur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: erode, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Faridabad, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Gandhinagar, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Gangtok, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Ghaziabad, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>2</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Goa, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>6</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Gokarna, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Gorakhpur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Guntur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Gurgaon, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>13</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Guwahati, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Gwalior, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Haldia, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Haldwani, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Haridwar, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>57</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Hisar, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Hoshiarpur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Hospet, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Hubli-Dharwad, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Hyderabad, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>12</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Indore, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>2</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Jabalpur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Jaigaon, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Jaipur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>3</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Jalandhar, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Jammu, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Jamnagar, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Jamshedpur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Jhansi, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Jharsuguda, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Jodhpur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Jorhat, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Kakinada, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Kalimpong, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Kanpur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Karimnagar, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Karnal, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Kashipur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Katra, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Khammam, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Khekkady, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Kochi, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Kodaikanal, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Kolhapur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Kolkata, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>7</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Kollam, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Kota, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Kottayam, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Kumbhalgarh, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Lonavala, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Lucknow, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>13</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Ludhiana, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>4</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Madurai, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Mahabalipuram, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Manali, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>3</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Manesar, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>2</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Mangalore, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>5</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Mathura, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>2</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Meerut, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Mohali, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Mount-Abu, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Mumbai, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>10</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Mussoorie, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Muzaffarpur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Mysore, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Nagpur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>4</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Nashik, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Nayagaon, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Neemrana, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Nellore, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: New Delhi, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>3</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: New Delhi and NCR, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Noida, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>4</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Ooty, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Panchgani, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Panipat, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Patiala, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Patna, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>5</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Pondicherry, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Pune, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>8</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Puri, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Pushkar, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Raipur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Rajkot, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: ranchi, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Ratnagiri, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Rewari, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Rishikesh, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Rohtak, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Roorkee, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Ropar, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: RourKela, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Salem, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Shillong, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Shimla, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Siliguri, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Sirsa, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Sonipat, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Srinagar, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Surat, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>2</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Tarapith, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Tezpur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Thanjavur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Thekkady, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Thrissur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Tirupati, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Tiruppur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Transit Vizag, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Trichur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Trichy, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Trivandrum, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Udaipur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Udupi, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Udupi-Manipal, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Ujjain, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Vadodara, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>2</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Vapi, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Varanasi, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>15</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Velankanni, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Vellore, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Vijayawada, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Vijaywada, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Visakhapatnam, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Warangal, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.searchHotels()'><b>searchHotels</b><br>Test class: getRequest.HexHotelSearch<br>Parameters: Zirakpur, 21/11/2019, 22/11/2019</td>
+<td></td>
+<td>1</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+<tr>
+<td title='getRequest.HexHotelSearch.writeIntoExcel()'><b>writeIntoExcel</b><br>Test class: getRequest.HexHotelSearch</td>
+<td></td>
+<td>0</td>
+<td>getRequest.HexHotelSearch@91161c7</td></tr>
+</table><p>
+</body>
+</html>

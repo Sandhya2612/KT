@@ -1,0 +1,3587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="171" passed="171">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="389787" started-at="2019-10-10T06:41:13Z" finished-at="2019-10-10T06:47:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="389787" started-at="2019-10-10T06:41:13Z" finished-at="2019-10-10T06:47:43Z">
+      <class name="getRequest.HexHotelSearch">
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="2653" started-at="2019-10-10T12:11:13Z" data-provider="Inputdata" finished-at="2019-10-10T12:11:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Agartala]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1331" started-at="2019-10-10T12:11:16Z" data-provider="Inputdata" finished-at="2019-10-10T12:11:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Agra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="4763" started-at="2019-10-10T12:11:17Z" data-provider="Inputdata" finished-at="2019-10-10T12:11:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ahmedabad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="699" started-at="2019-10-10T12:11:22Z" data-provider="Inputdata" finished-at="2019-10-10T12:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ahmednagar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="628" started-at="2019-10-10T12:11:23Z" data-provider="Inputdata" finished-at="2019-10-10T12:11:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ajmer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="723" started-at="2019-10-10T12:11:24Z" data-provider="Inputdata" finished-at="2019-10-10T12:11:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alappuzha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="611" started-at="2019-10-10T12:11:24Z" data-provider="Inputdata" finished-at="2019-10-10T12:11:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aligarh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="998" started-at="2019-10-10T12:11:25Z" data-provider="Inputdata" finished-at="2019-10-10T12:11:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Allahabad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="682" started-at="2019-10-10T12:11:26Z" data-provider="Inputdata" finished-at="2019-10-10T12:11:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alwar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="648" started-at="2019-10-10T12:11:27Z" data-provider="Inputdata" finished-at="2019-10-10T12:11:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ambala]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="597" started-at="2019-10-10T12:11:27Z" data-provider="Inputdata" finished-at="2019-10-10T12:11:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amravati]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1146" started-at="2019-10-10T12:11:28Z" data-provider="Inputdata" finished-at="2019-10-10T12:11:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amritsar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="594" started-at="2019-10-10T12:11:29Z" data-provider="Inputdata" finished-at="2019-10-10T12:11:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anantapur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="582" started-at="2019-10-10T12:11:30Z" data-provider="Inputdata" finished-at="2019-10-10T12:11:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Asansol]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="677" started-at="2019-10-10T12:11:30Z" data-provider="Inputdata" finished-at="2019-10-10T12:11:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aurangabad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="622" started-at="2019-10-10T12:11:31Z" data-provider="Inputdata" finished-at="2019-10-10T12:11:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Baddi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="26212" started-at="2019-10-10T12:11:31Z" data-provider="Inputdata" finished-at="2019-10-10T12:11:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="807" started-at="2019-10-10T12:11:58Z" data-provider="Inputdata" finished-at="2019-10-10T12:11:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Banglore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="643" started-at="2019-10-10T12:11:58Z" data-provider="Inputdata" finished-at="2019-10-10T12:11:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bareilly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="609" started-at="2019-10-10T12:11:59Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bathinda]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="592" started-at="2019-10-10T12:12:00Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Belgaum]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="590" started-at="2019-10-10T12:12:00Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bellary]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="587" started-at="2019-10-10T12:12:01Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhilai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="577" started-at="2019-10-10T12:12:01Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhilwara]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="854" started-at="2019-10-10T12:12:02Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhiwadi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="2004" started-at="2019-10-10T12:12:03Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhopal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1913" started-at="2019-10-10T12:12:05Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhubaneswar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="840" started-at="2019-10-10T12:12:07Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bikaner]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="606" started-at="2019-10-10T12:12:08Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bilaspur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="969" started-at="2019-10-10T12:12:08Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Calicut]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="3376" started-at="2019-10-10T12:12:09Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chandigarh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="17607" started-at="2019-10-10T12:12:13Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="633" started-at="2019-10-10T12:12:30Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chikmagalur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="4422" started-at="2019-10-10T12:12:31Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Coimbatore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="637" started-at="2019-10-10T12:12:35Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cooch Behar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="680" started-at="2019-10-10T12:12:36Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Coonoor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="678" started-at="2019-10-10T12:12:37Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Coorg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1029" started-at="2019-10-10T12:12:37Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cuttack]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="934" started-at="2019-10-10T12:12:38Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Darjeeling]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="2913" started-at="2019-10-10T12:12:39Z" data-provider="Inputdata" finished-at="2019-10-10T12:12:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dehradun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="21643" started-at="2019-10-10T12:12:42Z" data-provider="Inputdata" finished-at="2019-10-10T12:13:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="514" started-at="2019-10-10T12:13:04Z" data-provider="Inputdata" finished-at="2019-10-10T12:13:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dewas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="558" started-at="2019-10-10T12:13:04Z" data-provider="Inputdata" finished-at="2019-10-10T12:13:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dhanbad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="524" started-at="2019-10-10T12:13:05Z" data-provider="Inputdata" finished-at="2019-10-10T12:13:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Durg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="963" started-at="2019-10-10T12:13:05Z" data-provider="Inputdata" finished-at="2019-10-10T12:13:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Durgapur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="534" started-at="2019-10-10T12:13:06Z" data-provider="Inputdata" finished-at="2019-10-10T12:13:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[erode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1218" started-at="2019-10-10T12:13:07Z" data-provider="Inputdata" finished-at="2019-10-10T12:13:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Faridabad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="764" started-at="2019-10-10T12:13:08Z" data-provider="Inputdata" finished-at="2019-10-10T12:13:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gandhinagar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="619" started-at="2019-10-10T12:13:09Z" data-provider="Inputdata" finished-at="2019-10-10T12:13:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gangtok]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="2241" started-at="2019-10-10T12:13:10Z" data-provider="Inputdata" finished-at="2019-10-10T12:13:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ghaziabad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="6831" started-at="2019-10-10T12:13:12Z" data-provider="Inputdata" finished-at="2019-10-10T12:13:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="445" started-at="2019-10-10T12:13:19Z" data-provider="Inputdata" finished-at="2019-10-10T12:13:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gokarna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="450" started-at="2019-10-10T12:13:19Z" data-provider="Inputdata" finished-at="2019-10-10T12:13:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gorakhpur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="420" started-at="2019-10-10T12:13:20Z" data-provider="Inputdata" finished-at="2019-10-10T12:13:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Guntur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="13742" started-at="2019-10-10T12:13:20Z" data-provider="Inputdata" finished-at="2019-10-10T12:13:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gurgaon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1877" started-at="2019-10-10T12:13:34Z" data-provider="Inputdata" finished-at="2019-10-10T12:13:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Guwahati]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="514" started-at="2019-10-10T12:13:36Z" data-provider="Inputdata" finished-at="2019-10-10T12:13:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gwalior]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="491" started-at="2019-10-10T12:13:36Z" data-provider="Inputdata" finished-at="2019-10-10T12:13:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Haldia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="513" started-at="2019-10-10T12:13:37Z" data-provider="Inputdata" finished-at="2019-10-10T12:13:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Haldwani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="57216" started-at="2019-10-10T12:13:37Z" data-provider="Inputdata" finished-at="2019-10-10T12:14:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Haridwar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="547" started-at="2019-10-10T12:14:34Z" data-provider="Inputdata" finished-at="2019-10-10T12:14:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hisar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="432" started-at="2019-10-10T12:14:35Z" data-provider="Inputdata" finished-at="2019-10-10T12:14:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hoshiarpur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="449" started-at="2019-10-10T12:14:35Z" data-provider="Inputdata" finished-at="2019-10-10T12:14:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hospet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="768" started-at="2019-10-10T12:14:36Z" data-provider="Inputdata" finished-at="2019-10-10T12:14:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hubli-Dharwad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="12197" started-at="2019-10-10T12:14:36Z" data-provider="Inputdata" finished-at="2019-10-10T12:14:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="2564" started-at="2019-10-10T12:14:49Z" data-provider="Inputdata" finished-at="2019-10-10T12:14:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Indore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="853" started-at="2019-10-10T12:14:51Z" data-provider="Inputdata" finished-at="2019-10-10T12:14:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jabalpur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="466" started-at="2019-10-10T12:14:52Z" data-provider="Inputdata" finished-at="2019-10-10T12:14:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jaigaon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="3525" started-at="2019-10-10T12:14:53Z" data-provider="Inputdata" finished-at="2019-10-10T12:14:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jaipur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="822" started-at="2019-10-10T12:14:56Z" data-provider="Inputdata" finished-at="2019-10-10T12:14:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jalandhar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1187" started-at="2019-10-10T12:14:57Z" data-provider="Inputdata" finished-at="2019-10-10T12:14:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jammu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="477" started-at="2019-10-10T12:14:58Z" data-provider="Inputdata" finished-at="2019-10-10T12:14:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jamnagar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1129" started-at="2019-10-10T12:14:59Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jamshedpur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="698" started-at="2019-10-10T12:15:00Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jhansi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="461" started-at="2019-10-10T12:15:00Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jharsuguda]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="650" started-at="2019-10-10T12:15:01Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jodhpur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="472" started-at="2019-10-10T12:15:02Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jorhat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="497" started-at="2019-10-10T12:15:02Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kakinada]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="637" started-at="2019-10-10T12:15:03Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kalimpong]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1368" started-at="2019-10-10T12:15:03Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kanpur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="452" started-at="2019-10-10T12:15:05Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karimnagar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="468" started-at="2019-10-10T12:15:05Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karnal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="465" started-at="2019-10-10T12:15:05Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kashipur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="650" started-at="2019-10-10T12:15:06Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Katra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="463" started-at="2019-10-10T12:15:07Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Khammam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="632" started-at="2019-10-10T12:15:07Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Khekkady]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1898" started-at="2019-10-10T12:15:08Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kochi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="615" started-at="2019-10-10T12:15:10Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kodaikanal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="916" started-at="2019-10-10T12:15:10Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kolhapur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="7223" started-at="2019-10-10T12:15:11Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kolkata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="575" started-at="2019-10-10T12:15:18Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kollam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="586" started-at="2019-10-10T12:15:19Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kota]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="558" started-at="2019-10-10T12:15:19Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kottayam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="728" started-at="2019-10-10T12:15:20Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumbhalgarh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1093" started-at="2019-10-10T12:15:21Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lonavala]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="13064" started-at="2019-10-10T12:15:22Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lucknow]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="4318" started-at="2019-10-10T12:15:35Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ludhiana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1831" started-at="2019-10-10T12:15:39Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Madurai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1674" started-at="2019-10-10T12:15:41Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mahabalipuram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="3555" started-at="2019-10-10T12:15:43Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="2770" started-at="2019-10-10T12:15:46Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manesar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="5153" started-at="2019-10-10T12:15:49Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="2211" started-at="2019-10-10T12:15:54Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mathura]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="819" started-at="2019-10-10T12:15:56Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Meerut]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="967" started-at="2019-10-10T12:15:57Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="595" started-at="2019-10-10T12:15:58Z" data-provider="Inputdata" finished-at="2019-10-10T12:15:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mount-Abu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="10866" started-at="2019-10-10T12:15:59Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="833" started-at="2019-10-10T12:16:10Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mussoorie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="586" started-at="2019-10-10T12:16:11Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Muzaffarpur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1712" started-at="2019-10-10T12:16:11Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mysore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="4166" started-at="2019-10-10T12:16:13Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nagpur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1053" started-at="2019-10-10T12:16:17Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nashik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="583" started-at="2019-10-10T12:16:18Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nayagaon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="575" started-at="2019-10-10T12:16:19Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Neemrana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1031" started-at="2019-10-10T12:16:19Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nellore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="3439" started-at="2019-10-10T12:16:20Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="687" started-at="2019-10-10T12:16:24Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Delhi and NCR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="4465" started-at="2019-10-10T12:16:24Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Noida]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="722" started-at="2019-10-10T12:16:29Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ooty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="777" started-at="2019-10-10T12:16:30Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Panchgani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="789" started-at="2019-10-10T12:16:30Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Panipat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1276" started-at="2019-10-10T12:16:31Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Patiala]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="5469" started-at="2019-10-10T12:16:32Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Patna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="901" started-at="2019-10-10T12:16:38Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="8533" started-at="2019-10-10T12:16:39Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="594" started-at="2019-10-10T12:16:47Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Puri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="640" started-at="2019-10-10T12:16:48Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pushkar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1956" started-at="2019-10-10T12:16:49Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raipur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1496" started-at="2019-10-10T12:16:51Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rajkot]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1734" started-at="2019-10-10T12:16:52Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ranchi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="544" started-at="2019-10-10T12:16:54Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ratnagiri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="541" started-at="2019-10-10T12:16:54Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rewari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1105" started-at="2019-10-10T12:16:55Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rishikesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="597" started-at="2019-10-10T12:16:56Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rohtak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="572" started-at="2019-10-10T12:16:57Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Roorkee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="561" started-at="2019-10-10T12:16:57Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ropar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="578" started-at="2019-10-10T12:16:58Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RourKela]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="669" started-at="2019-10-10T12:16:58Z" data-provider="Inputdata" finished-at="2019-10-10T12:16:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Salem]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="619" started-at="2019-10-10T12:16:59Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shillong]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1321" started-at="2019-10-10T12:17:00Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shimla]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="807" started-at="2019-10-10T12:17:01Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Siliguri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="569" started-at="2019-10-10T12:17:02Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sirsa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="593" started-at="2019-10-10T12:17:02Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sonipat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="666" started-at="2019-10-10T12:17:03Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Srinagar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="2873" started-at="2019-10-10T12:17:03Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Surat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="561" started-at="2019-10-10T12:17:06Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tarapith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="578" started-at="2019-10-10T12:17:07Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tezpur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1026" started-at="2019-10-10T12:17:08Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thanjavur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="884" started-at="2019-10-10T12:17:09Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thekkady]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="579" started-at="2019-10-10T12:17:09Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thrissur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="664" started-at="2019-10-10T12:17:10Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tirupati]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="569" started-at="2019-10-10T12:17:11Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tiruppur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="586" started-at="2019-10-10T12:17:11Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Transit Vizag]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="574" started-at="2019-10-10T12:17:12Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Trichur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="627" started-at="2019-10-10T12:17:12Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Trichy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1998" started-at="2019-10-10T12:17:13Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Trivandrum]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1223" started-at="2019-10-10T12:17:15Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Udaipur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="609" started-at="2019-10-10T12:17:16Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Udupi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="583" started-at="2019-10-10T12:17:17Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Udupi-Manipal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="585" started-at="2019-10-10T12:17:17Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ujjain]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="2002" started-at="2019-10-10T12:17:18Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vadodara]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="564" started-at="2019-10-10T12:17:20Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vapi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="15642" started-at="2019-10-10T12:17:21Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Varanasi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="716" started-at="2019-10-10T12:17:36Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Velankanni]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="595" started-at="2019-10-10T12:17:37Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vellore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1466" started-at="2019-10-10T12:17:38Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vijayawada]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="966" started-at="2019-10-10T12:17:39Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vijaywada]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1437" started-at="2019-10-10T12:17:40Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Visakhapatnam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="603" started-at="2019-10-10T12:17:41Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Warangal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="searchHotels(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:getRequest.HexHotelSearch@91161c7]" name="searchHotels" duration-ms="1056" started-at="2019-10-10T12:17:42Z" data-provider="Inputdata" finished-at="2019-10-10T12:17:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Zirakpur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/11/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/11/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="writeIntoExcel()[pri:2, instance:getRequest.HexHotelSearch@91161c7]" name="writeIntoExcel" duration-ms="5" started-at="2019-10-10T12:17:43Z" finished-at="2019-10-10T12:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeIntoExcel -->
+      </class> <!-- getRequest.HexHotelSearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
